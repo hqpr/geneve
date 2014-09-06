@@ -1,0 +1,110 @@
+@import "./../css/reset.css";
+body{background:#f3f3f3;font-family:"Arial";font-size:14px}
+*{color:#000;outline:none}
+button,a{cursor:pointer}
+.clear{clear:both}
+a{text-decoration:none;color:#00a1fd}a:hover{color:#000}
+a span{text-decoration:none;color:#00a1fd}a span:hover{color:#000}
+.float-left{float:left}
+.float-right{float:right}
+h2,h1,h4{font-family:"bsa_fas_groteskmedium"}
+h3{font-family:"bsa_fas_groteskregular"}
+h1{font-size:36px;line-height:38px;padding:20px 0}
+h2{font-size:36px;line-height:38px;padding:20px 0}
+h3{font-size:36px;line-height:38px;padding-bottom:20px}
+h4{font-size:20px;line-height:23px;padding-bottom:10px}
+p{font-family:"Arial";font-size:14px;line-height:20px;padding-bottom:10px}
+img{margin:0 20px 20px 0}
+hr{clear:both}
+.content hr{border:none}
+strong{font-weight:bold}
+em{font-style:italic}
+.document{display:block;height:150px;width:120px;margin:0 20px 20px 0;padding:20px;background:#fff;float:left;background:url("../images/bg-document-gris.png");color:#000;font-family:"bsa_fas_groteskregular";font-size:18px}.document:hover{background-position:bottom left;color:#00a1fd}
+.documents{padding-top:30px}
+table{width:100% !important}table td{border-bottom:1px solid #b2b2b2;line-height:20px;height:30px}
+ul{padding-bottom:10px}ul li{font-size:14px;line-height:20px;padding-left:10px;background:url(../images/bullet.png) no-repeat;background-position:0 8px}
+#site{}#site #logo{width:290px;height:73px;background:url("../images/logo.jpg") no-repeat;background-size:100% auto}#site #logo a{display:block;width:100%;height:100%}
+#site #left{width:320px;position:absolute;top:0;left:0;z-index:2}#site #left .wrapper{padding:20px 10px 0 20px}
+#site #left .left-top{padding:20px 10px 0 10px;background:#fff;min-height:200px}
+#site #left .menu{padding:0 0 5px 0}#site #left .menu li{list-style:none;padding:0 0 10px 10px;display:inline-block;background:none;font-size:20px;font-family:"bsa_fas_groteskmedium"}#site #left .menu li a{color:#aaa}#site #left .menu li a:hover{color:#000}
+#site #left .menu li.active a{color:#000}
+#site #left .menu li ul{float:none}
+#site #left .menu.submenu{padding:15px 0 10px 0}#site #left .menu.submenu li{padding:0 0 5px 10px;list-style:none;background:none;display:block;font-size:18px;font-family:"bsa_fas_groteskregular"}#site #left .menu.submenu li ul{float:none}
+#site #left .mod-languages{padding:15px 0 0 0}#site #left .mod-languages li{font-size:12px;padding:0 5px 0 0;margin:0;font-family:"Arial";list-style:none;background:none}#site #left .mod-languages li a{color:#000}#site #left .mod-languages li a:hover{color:#aaa}
+#site #middle{position:relative;z-index:1;}#site #middle .wrapper{padding:73px 0 0 320px}#site #middle .wrapper h1{background:#ff0}
+#site #middle #membres{width:930px}#site #middle #membres .block-mini{width:212px;margin:0 10px 20px 10px;padding:0;float:left;background:#fff}#site #middle #membres .block-mini:hover{background:#eaa0a9}#site #middle #membres .block-mini:hover h2{color:#00a1fd}
+#site #middle #membres .block-mini a{position:absolute;top:0;left:0;width:100%;height:100%}
+#site #middle #membres .block-mini h2{padding:20px;font-size:22px;line-height:24px}
+#site #middle #membres .block-mini .txt{padding:0 20px 20px 20px}
+#site #middle #membres .block-mini .img{width:100%}#site #middle #membres .block-mini .img img{width:100%;height:100px;display:block;margin:0}
+#site #middle #membre{width:930px;position:relative}#site #middle #membre .infos{position:absolute;top:73px;left:10px;right:0}#site #middle #membre .infos .info-blocks{width:212px}#site #middle #membre .infos .info-blocks.left{float:left}
+#site #middle #membre .infos .info-blocks.right{float:right;padding-top:200px}
+#site #middle #membre .infos .info-blocks .info-block{position:relative;z-index:500;margin-bottom:20px;background:#ccc}#site #middle #membre .infos .info-blocks .info-block h2{color:#00a1fd;padding:20px}#site #middle #membre .infos .info-blocks .info-block h2.member-name{font-size:26px;line-height:28px}#site #middle #membre .infos .info-blocks .info-block h2.member-name span{color:#00a1fd;font-family:"bsa_fas_groteskregular"}
+#site #middle #membre .infos .info-blocks .info-block p{padding:0 20px 22px 20px}
+#site #middle #membre .infos .info-blocks .info-block.othercolor{background:#eaa0a9}
+#site #middle #membre .infos .info-blocks .info-block.alone h2{padding-bottom:80px;word-break:break-all}
+#site #middle #membre .infos .info-blocks.notext.right{float:left;padding:240px 0 0 20px}
+#site #middle #membre .detail{position:relative;z-index:400}#site #middle #membre .detail .content{padding:273px 232px 0 242px}#site #middle #membre .detail .content img{max-width:100% !important}
+#blocks{width:930px}
+.blocks .block-mini{width:290px;margin:0 10px 20px 10px;float:left;background:#fff;padding-bottom:5px}.blocks .block-mini .content{padding:0 20px 0 20px}
+.blocks .block-mini h2{font-size:24px;line-height:26px;padding:20px 0}
+.custom img{width:100% !important;height:auto}
+.member-filter{padding:0 10px 20px 10px}.member-filter .member-filter-search{margin:5px 0}.member-filter .member-filter-search input{width:170px;height:auto;line-height:14px;padding:5px 10px;border:1px solid #f0f0f0;outline:none;-webkit-box-shadow:inset 1px 1px 1px 0 #a2a2a2;box-shadow:inset 1px 1px 1px 0 #a2a2a2}
+.member-filter .member-filter-selector{width:192px;overflow:hidden;height:24px;background:url("../images/bg-filter-selector-arrow.jpg") top right no-repeat #e6e6e6;margin:5px 0}.member-filter .member-filter-selector select{border:none;background:none;width:120%;line-height:14px;padding:4px 10px 6px 10px;-webkit-appearance:none;-moz-appearance:none;appearance:none;margin:0}
+.member-search input{width:95%;height:auto;line-height:14px;padding:5px 2%;border:1px solid #f0f0f0;outline:none;-webkit-box-shadow:inset 1px 1px 1px 0 #a2a2a2;box-shadow:inset 1px 1px 1px 0 #a2a2a2;margin-right:-22px}
+.member-search button{background:#ccc;color:#00a1fd;padding:3px 15px 4px 15px;border:none;margin:10px 0 0 0;font-family:Arial}.member-search button:hover{background:#eaa0a9}
+.agenda .content{padding-left:10px}
+.agenda .item{margin-bottom:20px}.agenda .item img{float:left;width:188px;height:auto;margin-top:20px}
+.agenda .item h2{padding-bottom:0}.agenda .item h2 a{color:#000}
+.agenda .item h3{padding-bottom:0}
+.agenda .item h2,.agenda .item h3{font-size:20px;line-height:24px}
+.agenda .item h2,.agenda .item p,.agenda .item h3{padding-right:20px;padding-left:208px}
+.agenda .item.noImage h2,.agenda .item.noImage p,.agenda .item.noImage h3{padding-right:0;padding-left:0}
+.module-agenda{position:relative;margin-bottom:100px !important}.module-agenda h2{padding-bottom:10px}
+.module-agenda #agenda-item{padding-top:20px}.module-agenda #agenda-item .img{width:100%;overflow:hidden;height:100px;padding:0}
+.module-agenda #agenda-item h2{padding:20px 20px 0 20px;font-size:22px;line-height:24px}
+.module-agenda #agenda-item h3{padding:0 20px 0 20px;font-size:26px;line-height:28px}
+.module-agenda #agenda-item p{padding-right:20px;padding-left:20px}
+.module-agenda .selector{width:100%;height:24px;background:url("../images/bg-filter-selector-arrow.jpg") top right no-repeat #e6e6e6;margin:5px 0;overflow:hidden}.module-agenda .selector select{border:none;background:none;width:110%;line-height:14px;padding:4px 0 6px 2%;-webkit-appearance:none;-moz-appearance:none;appearance:none;margin:0}
+.module-agenda.block-left{padding:10px 20px 10px 20px;background:#fff;margin:20px 0 0 0 !important}
+.images .image{float:left;display:block;margin:0 20px 20px 0}.images .image img{width:150px;height:200px;margin:0}
+.images .image .description{padding-top:10px}
+.contact-form .right,.contact-form .left{float:left}
+.module-carousel{width:910px;padding:20px 10px 20px 10px}.module-carousel .content{background:#eaa0a9;position:relative}.module-carousel .content h2{color:#00a1fd}
+.module-carousel .content .list{float:left;width:290px}.module-carousel .content .list ul{padding:0}
+.module-carousel .content .list li{list-style:none;background:none;padding:0}.module-carousel .content .list li a{display:block;width:250px;padding:9px 0 8px 20px;border-bottom:1px solid #f3f3f3;font-family:"bsa_fas_groteskregular";color:#000;font-size:22px;line-height:23px}
+.module-carousel .content .list li:hover{background:url('../images/bg-carousel-list-gris.png') no-repeat top right}.module-carousel .content .list li:hover a{background:#ccc;color:#00a1fd}
+.module-carousel .content .list li.last a{border-bottom:none}
+.module-carousel .content .list li.selected{background:url('../images/bg-carousel-list-gris.png') no-repeat top right}.module-carousel .content .list li.selected a{background:#ccc;color:#00a1fd}
+.module-carousel .content .items{position:absolute;top:0;left:310px;right:20px;bottom:20px;overflow:hidden}
+.page{padding:0 0 40px 0;width:930px}.page .content{padding:0 20px 0 10px}
+.page.custom{padding-bottom:20px}
+.pagination{width:100%;padding:0 0 55px 10px}.pagination .button2-right{float:left}
+.pagination .button2-left{float:left;margin-right:20px}
+.module-sections{padding:20px 0 0 10px}.module-sections #mapbulle{display:none;position:relative;background:#fff}.module-sections #mapbulle p{padding:5px 30px}
+.module-sections #mapbulle .arrow{position:absolute;bottom:-10px;left:50%;width:20px;height:10px;margin-left:-10px;background:url("../images/bg-section-bulle.png") no-repeat}
+.module-sections .legende{padding-top:20px}.module-sections .legende .left,.module-sections .legende .right{float:left}
+.module-sections .legende .left{margin-right:50px}
+.module-sections .legende p span{padding:2px 15px;margin-right:10px}
+.module-sections .legende p a{color:#aaa}.module-sections .legende p a:hover{color:#000}
+.contact .left,.contact .right,.contact .center{float:left;margin-top:20px}
+.contact .left{width:290px}
+.contact .right{width:290px}
+.contact .center{width:290px;padding:0 10px}
+.contact h4{font-size:14px;font-family:"Arial";font-weight:bold;padding:0 0 5px 0}
+.contact input{width:90%;height:auto;line-height:14px;padding:5px 2%;border:1px solid #f0f0f0;outline:none;-webkit-box-shadow:inset 1px 1px 1px 0 #a2a2a2;box-shadow:inset 1px 1px 1px 0 #a2a2a2;margin-right:-22px}
+.contact textarea{width:90%;height:100px;line-height:14px;padding:5px 2%;border:1px solid #f0f0f0;outline:none;-webkit-box-shadow:inset 1px 1px 1px 0 #a2a2a2;box-shadow:inset 1px 1px 1px 0 #a2a2a2;margin-right:-22px;resize:none}
+.contact button{background:#ccc;color:#00a1fd;padding:3px 15px 4px 15px;border:none;margin:10px 0 0 0;font-family:Arial}.contact button:hover{background:#eaa0a9}
+.contact label{font-size:11px;font-family:"Arial";padding:20px 0 10px 0;text-transform:uppercase;display:block}
+p.login_form_header{padding-top:10px;padding-bottom:4px;font-size:12px;font-weight:bold;color:#aaa}
+#login-form a{color:#000;font-size:11px;text-transform:uppercase;font-family:Arial}#login-form a:hover{color:#aaa}
+#login-form button{background:#ccc;background-image:url(/templates/fas/images/cadenas_rose.png);background-repeat:no-repeat;background-position:10px 4px;color:#00a1fd;padding:6px 15px 6px 35px;border:none;margin:0 0 0 0;font-family:Arial}#login-form button:hover{background:#eaa0a9;background-image:url(/templates/fas/images/cadenas_rose.png);background-repeat:no-repeat;background-position:10px 4px}
+.login .labels{float:left;width:250px}
+.login h4{font-size:14px;font-family:"Arial";font-weight:bold;padding:0 0 0 0}
+.login .inputs{float:left;width:230px;padding-right:20px}
+.login input{width:96%;height:auto;line-height:14px;padding:5px 2%;border:1px solid #f0f0f0;outline:none;-webkit-box-shadow:inset 1px 1px 1px 0 #a2a2a2;box-shadow:inset 1px 1px 1px 0 #a2a2a2;margin-right:-22px}
+.login button{background:#ccc;color:#00a1fd;padding:3px 15px 4px 15px;border:none;margin:10px 0 0 0;font-family:Arial}.login button:hover{background:#eaa0a9}
+.login label{font-size:11px;font-family:"Arial";padding:20px 0 10px 0;text-transform:uppercase;display:block}
+.module-membres-stat table th{text-align:left;font-weight:bold;padding:10px 0}
+.module-membres-stat table th,.module-membres-stat table td{font-family:"bsa_fas_groteskregular"}
+@media screen and (max-width:1250px){#membres{width:698px !important} #membre{width:698px !important}#membre .info-blocks.right{float:none !important;padding-top:0 !important} #membre .info-blocks.left{float:none !important} #membre .info-blocks.notext.right{float:left;padding:0 !important} #membre .info-blocks.notext.left{float:left} #membre .detail .content{padding-right:0 !important} .page{width:100% !important;min-width:698px !important} #blocks{width:699px !important}#blocks .block-mini{width:213px !important} .contact .left,.contact .right,.contact .center{width:220px} .module-carousel{width:680px !important}.module-carousel .content .list{width:213px !important}.module-carousel .content .list li a{width:173px !important} .module-carousel .items{left:233px !important}}

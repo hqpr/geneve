@@ -1,0 +1,61 @@
+/*•••••••••••••••••••••••••••••
+ *  FONT
+ ••••••••••••••••••••••••••••*/
+
+@font-face {
+    font-family: 'bsa_fas_groteskbold';
+    src: url('bsafasgrotesk-bold-webfont.eot');
+    src: url('bsafasgrotesk-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('bsafasgrotesk-bold-webfont.woff') format('woff'),
+         url('bsafasgrotesk-bold-webfont.ttf') format('truetype'),
+         url('bsafasgrotesk-bold-webfont.svg#bsa_fas_groteskbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+@font-face {
+    font-family: 'bsa_fas_groteskregular';
+    src: url('bsafasgrotesk-regular-webfont.eot');
+    src: url('bsafasgrotesk-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('bsafasgrotesk-regular-webfont.woff') format('woff'),
+         url('bsafasgrotesk-regular-webfont.ttf') format('truetype'),
+         url('bsafasgrotesk-regular-webfont.svg#bsa_fas_groteskregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bsa_fas_groteskitalic';
+    src: url('bsafasgrotesk-italic-webfont.eot');
+    src: url('bsafasgrotesk-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('bsafasgrotesk-italic-webfont.woff') format('woff'),
+         url('bsafasgrotesk-italic-webfont.ttf') format('truetype'),
+         url('bsafasgrotesk-italic-webfont.svg#bsa_fas_groteskitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bsa_fas_groteskmedium';
+    src: url('bsafasgrotesk-medium-webfont.eot');
+    src: url('bsafasgrotesk-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('bsafasgrotesk-medium-webfont.woff') format('woff'),
+         url('bsafasgrotesk-medium-webfont.ttf') format('truetype'),
+         url('bsafasgrotesk-medium-webfont.svg#bsa_fas_groteskmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
